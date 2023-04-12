@@ -1,7 +1,7 @@
 # Next.Js Portfolio Website🌟
 
-![GitHub stars](https://img.shields.io/github/stars/NitinS87/Next.js-Developer-Portfolio-Starter-Code?style=social&logo=ApacheSpark&label=Stars)&nbsp;&nbsp;
-![GitHub forks](https://img.shields.io/github/forks/NitinS87/Next.js-Developer-Portfolio-Starter-Code?style=social&logo=KashFlow&maxAge=3600)&nbsp;&nbsp;
+![GitHub stars](https://img.shields.io/github/stars/NitinS87/Nitin-Portfolio-Website?style=social&logo=ApacheSpark&label=Stars)&nbsp;&nbsp;
+![GitHub forks](https://img.shields.io/github/forks/NitinS87/Nitin-Portfolio-Website?style=social&logo=KashFlow&maxAge=3600)&nbsp;&nbsp;
 ![Github Followers](https://img.shields.io/github/followers/NitinS87.svg?style=social&label=Follow)&nbsp;&nbsp;<br />
 
 ### Resources Used in This Project
