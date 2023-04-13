@@ -70,7 +70,7 @@ const NavBar = () => {
           <CustomLink href="/" title="Home" className="mr-4" />
           <CustomLink href="/about" title="About" className="mx-4" />
           <CustomLink href="/projects" title="Projects" className="mx-4" />
-          <CustomLink href="/articles" title="Articles" className="ml-4" />
+          {/* <CustomLink href="/articles" title="Articles" className="ml-4" /> */}
         </nav>
 
         <div className="flex justify-center items-center flex-wrap">
@@ -140,7 +140,7 @@ const NavBar = () => {
             <CustomMobileLink href="/" title="Home" className="" toggle={handleClick} />
             <CustomMobileLink href="/about" title="About" className="" toggle={handleClick} />
             <CustomMobileLink href="/projects" title="Projects" className="" toggle={handleClick} />
-            <CustomMobileLink href="/articles" title="Articles" className="" toggle={handleClick} />
+            {/* <CustomMobileLink href="/articles" title="Articles" className="" toggle={handleClick} /> */}
           </nav>
 
           <div className="flex justify-center items-center flex-wrap mt-2">
@@ -150,6 +150,7 @@ const NavBar = () => {
               whileHover={{ y: -2 }}
               className="w-6 mr-3 sm:mx-1"
               whileTap={{ scale: 0.9 }}
+              id="twitter"
             >
               <TwitterIcon />
             </motion.a>
@@ -159,6 +160,7 @@ const NavBar = () => {
               whileHover={{ y: -2 }}
               className="w-6 mx-3 sm:mx-1 bg-light rounded-full dark:bg-dark"
               whileTap={{ scale: 0.9 }}
+              id="github"
             >
               <GithubIcon />
             </motion.a>
@@ -168,6 +170,7 @@ const NavBar = () => {
               whileHover={{ y: -2 }}
               className="w-6 mx-3 sm:mx-1"
               whileTap={{ scale: 0.9 }}
+              id="linkedin"
             >
               <LinkedInIcon />
             </motion.a>
@@ -177,6 +180,7 @@ const NavBar = () => {
               whileHover={{ y: -2 }}
               className="w-6 mx-3 sm:mx-1 bg-light rounded-full"
               whileTap={{ scale: 0.9 }}
+              id="pinterest"
             >
               <PinterestIcon />
             </motion.a>
@@ -186,12 +190,14 @@ const NavBar = () => {
               whileHover={{ y: -2 }}
               className="w-6 ml-3"
               whileTap={{ scale: 0.9 }}
+              id="dribbble"
             >
               <DribbbleIcon />
             </motion.a>
 
             <button
               onClick={() => setMode(mode === "light" ? "dark" : "light")}
+              id="theme"
               className={`ml-3 flex items-center justify-center rounded-full p-1 ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"
                 }`}
             >

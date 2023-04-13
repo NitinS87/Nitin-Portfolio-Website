@@ -5,7 +5,12 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import project1 from "../../public/images/projects/farmworks-app.png";
+import project2 from "../../public/images/projects/Netflix-Clone.png";
+import project3 from "../../public/images/projects/chatgpt-clone.png";
+import project4 from "../../public/images/projects/Cryptobase-app.png";
+import project5 from "../../public/images/projects/travel-site.png";
+import project6 from "../../public/images/projects/youtube-clone.png";
 import Head from "next/head";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
@@ -135,62 +140,61 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-              It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-              local currency."
-                link="/"
-                github="/"
+                title="FarmWorks"
+                summary="An online hiring and job postings website only for farmers, labours and contractors for finding skilled labour built using React, Tailwind CSS, Context API, React Router, Nodejs, Expressjs and Cloudinary. 
+      Farmers can post their job and its price for labours and contractors. The price always be higher than minimum wages set by Indian Govt according to number of days. 
+      Labours and contractors can apply for the job and the farmer can accept or reject the application. "
+                link="https://farm-works-app.vercel.app/"
+                github="https://github.com/NitinS87/FarmWorks"
                 type="Featured Project"
                 img={project1}
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
-                link="/"
-                github="/"
+                title="Netflix Clone(UI)"
+                link="https://netflix-clone-1cc5f.web.app/"
+                github="https://github.com/NitinS87/Netflix-Clone-React"
                 type="Featured Project"
-                img={project1}
+                img={project2}
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
-                link="/"
-                github="/"
+                title="ChatGPT clone"
+                link="https://chat-gpt-frontend-one.vercel.app/"
+                github="https://github.com/NitinS87/ChatGPT-Frontend"
                 type="Featured Project"
-                img={project1}
+                img={project3}
               />
             </div>
             <div className="col-span-12">
               <FeaturedProject
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-          It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-          local currency."
-                link="/"
-                github="/"
+                title="CryptoBase App"
+                summary="A feature-rich CryptoBase App using React, Tailwind CSS, Context API, React Router and Sparklines. 
+              It shows detail regarding almost all the cryptocurrency."
+                link="https://cryptobase-app-536b3.web.app/"
+                github="https://github.com/NitinS87/Crypto-React-app.git"
                 type="Featured Project"
-                img={project1}
+                img={project4}
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
-                link="/"
-                github="/"
+                title="Travel Webpage(UI)"
+                link="https://nitins87.github.io/travel-site/"
+                github="https://github.com/NitinS87/FoodWebsite"
                 type="Featured Project"
-                img={project1}
+                img={project5}
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
-                link="/"
-                github="/"
+                title="Youtube Clone"
+                link="https://splendid-khapse-3500a2.netlify.app/"
+                github="https://github.com/NitinS87/Youtube-Clone-App"
                 type="Featured Project"
-                img={project1}
+                img={project6}
               />
             </div>
           </div>

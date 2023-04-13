@@ -52,54 +52,22 @@ const Experience = () => {
         />
         <ul className="w-full flex flex-col items-center justify-between ml-4 xs:ml-2">
           <Details
-            companyLink="https://google.com"
-            position="Software Engineer"
-            company="@Google"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-          search engine, including improving the accuracy and relevance of search results and 
-          developing new tools for data analysis and visualization."
+            companyLink="https://www.empasslearning.com/"
+            position="Frontend Engineer"
+            company="@Empass Learning"
+            time="March 2023-Present"
+            address="Gurgaon, India"
+            work="Worked on creating multiple homepages for multiple apps, styling existing apps. Debugged and fixed bugs in existing apps.
+            Created a game for dyslexia disabled people using React and TailwindCSS. Worked on many other projects for group of people suffering 
+            from OCD and other mental disorders using React and TailwindCSS"
           />
           <Details
-            companyLink="https://google.com"
+            companyLink="https://github.com/NitinS87"
             position="Software Engineer"
-            company="@Google"
+            company="@Open Source Projects"
             time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-          search engine, including improving the accuracy and relevance of search results and 
-          developing new tools for data analysis and visualization."
-          />
-          <Details
-            companyLink="https://google.com"
-            position="Software Engineer"
-            company="@Google"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-          search engine, including improving the accuracy and relevance of search results and 
-          developing new tools for data analysis and visualization."
-          />
-          <Details
-            companyLink="https://google.com"
-            position="Software Engineer"
-            company="@Google"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-          search engine, including improving the accuracy and relevance of search results and 
-          developing new tools for data analysis and visualization."
-          />
-          <Details
-            companyLink="https://google.com"
-            position="Software Engineer"
-            company="@Google"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-          search engine, including improving the accuracy and relevance of search results and 
-          developing new tools for data analysis and visualization."
+            address="Remote"
+            work="Worked on many open source projects based on React, NextJS, Javascript and Docker."
           />
         </ul>
       </div>

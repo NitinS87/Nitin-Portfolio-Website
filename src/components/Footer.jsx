@@ -20,7 +20,7 @@ const Footer = () => {
             Nitin Sharma
           </Link>
         </div>
-        <Link href="/" className="underline underline-offset-2">
+        <Link href="https://linkedin.com/in/nitins9868" className="underline underline-offset-2">
           Say hello
         </Link>
       </Layout>
