@@ -53,13 +53,26 @@ const Experience = () => {
         <ul className="w-full flex flex-col items-center justify-between ml-4 xs:ml-2">
           <Details
             companyLink="https://www.empasslearning.com/"
-            position="Frontend Engineer"
+            position="Frontend Engineer Intern"
             company="@Empass Learning"
-            time="March 2023-Present"
-            address="Gurgaon, India"
+            time="March 2023-June 2023"
+            address="Remote"
             work="Worked on creating multiple homepages for multiple apps, styling existing apps. Debugged and fixed bugs in existing apps.
             Created a game for dyslexia disabled people using React and TailwindCSS. Worked on many other projects for group of people suffering 
             from OCD and other mental disorders using React and TailwindCSS"
+          />
+          <Details
+            companyLink="https://www.coffeee.io/"
+            position="Software Development Engineer Intern"
+            company="@Coffeee.io"
+            time="July 2023-September 2023"
+            address="Gurgaon, India"
+            work="Developed a data scraping tool that lets users search for a party name and check its records in different government entities as a client project. 
+                  Implemented a robust Restful Web Services API using Node.js, Express, and PostgreSQL to facilitate seamless 
+                  interaction between the web app and database, incorporating modular design and run-time optimization techniques. 
+                  Worked on several screens of the React.js web app, ensuring a seamless and responsive user experience across platforms. 
+                  Created Java Selenium scripts that scrap data by performing user-simulated actions. 
+                  Worked on maintaining Coffeee.io, their recruiting platform which has over 1lac+ users by working on AWS S3 and Amazon Aurora."
           />
           <Details
             companyLink="https://github.com/NitinS87"
